@@ -1,0 +1,436 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"fl",
+				"flex-start\tjustify-content"
+			],
+			[
+				"v",
+				"vertical-align\tproperty"
+			],
+			[
+				"alig",
+				"align-items\tproperty"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"fel",
+				"flex-end\tjustify-content"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"s",
+				"space-between\tjustify-content"
+			],
+			[
+				"fle",
+				"flex-flow\tproperty"
+			],
+			[
+				"a",
+				"alt\tAttr"
+			],
+			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"f",
+				"flex-start\tjustify-content"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"Margin",
+				"margin\tproperty"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"y",
+				"yScale"
+			],
+			[
+				"ani",
+				"animation-delay"
+			],
+			[
+				"anima",
+				"animation-iteration-count"
+			],
+			[
+				"animatio",
+				"animation-duration"
+			],
+			[
+				"ext",
+				"extpassword"
+			],
+			[
+				"ter",
+				"terminos-condiciones__title-3"
+			],
+			[
+				"terminos",
+				"terminos-condiciones__text"
+			],
+			[
+				"term",
+				"terminos-condiciones__text"
+			],
+			[
+				"t",
+				"terminos-condiciones__term"
+			],
+			[
+				"des",
+				"descripcion-pagina"
+			],
+			[
+				"aviso-legal__item",
+				"aviso-legal__item-title--lowercase"
+			],
+			[
+				"aviso-le",
+				"aviso-legal"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/padawan_02/Dropbox/el_circo_de_ana/img/twiiter.svg",
+		"/Users/padawan_02/Dropbox/el_circo_de_ana/img/facebook.svg",
+		"/Users/padawan_02/Dropbox/el_circo_de_ana/img/linkedin.svg",
+		"/Users/padawan_02/Dropbox/el_circo_de_ana/img/google.svg",
+		"/Users/padawan_02/Dropbox/el_circo_de_ana/index.html",
+		"/Users/padawan_02/Desktop/circo-de-ana/.gitignore",
+		"/Users/padawan_02/Desktop/el_circo_de_ana/index.html",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/appagebuilder-errors.log",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/brandcenter_3/src/less/style.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/account.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/backoffice_order.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/bankwire.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/cheque.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/contact.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/contact_form.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/credit_slip.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/download_product.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/employee_password.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/forward_msg.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/guest_to_customer.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/import.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/in_transit.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/log_alert.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/newsletter.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/order_canceled.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/order_cancelled.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/order_changed.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/order_conf.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/order_conf_bak.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/order_customer_comment.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/order_merchant_comment.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/order_return_state.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/outofstock.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/password.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/password_query.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/payment.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/payment_error.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/preparation.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/refund.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/reply_msg.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/shipped.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/template.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/test.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/voucher.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/voucher_new.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/lang.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/mails/es/open",
+		"/Applications/XAMPP/xamppfiles/htdocs/node/package.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/material/bloques/cms_pages/mapa.svg",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/ps_shoppingcart/ps_shoppingcart.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_moodle/theme/boost/templates/header.mustache",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/auth.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_moodle/theme/boost/templates/flat_navigation.mustache",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/.htaccess",
+		"/Users/padawan_02/Documents/acrediti/css/custom.css",
+		"/Users/padawan_02/Dropbox/Works/A/Acrediti/05_Web/New/_access/Acrediti_access.txt",
+		"/Users/padawan_02/Documents/acrediti/bak/db/2017_03_21/cursoenf_mdl_2017_03_21.sql",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/.htaccess_original",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_moodle/.htaccess",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/profiles/plist1479981671.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/ps_shoppingcart/modal.tpl",
+		"/Users/padawan_02/Desktop/test.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/appagebuilder/views/templates/hook/product-carousel/ProductOwlCarousel.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/modules/appagebuilder/classes/shortcodes/ApProductCarousel.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/appagebuilder/views/templates/hook/product-carousel/ApProductCarousel.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/appagebuilder/views/templates/hook/product-carousel/ProductCarousel.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/appagebuilder/views/templates/hook/product-carousel/ProductItem.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/profiles/profile1480178067/id_gencode_582988ce3a1c4_1479117006.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/appagebuilder/views/templates/front/products/quickview.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/appagebuilder/views/templates/front/products/product_thumbnail.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/modules/appagebuilder/views/templates/front/products/product_price_and_shipping.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/material/bloques/redes_sociales.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/material/bloques/css/footer-links.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/material/bloques/footer-links.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/material/bloques/footer-links-legales.html",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/error_log",
+		"/Applications/XAMPP/xamppfiles/htdocs/material/bloques/listado-footer.html",
+		"/Users/padawan_02/Documents/moodle/modificacion_sincro_prestashop_moodle.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/animation.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/src/Core/Crypto/Hashing.php",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/.htaccess 2",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/php.ini_",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/cursoenfermeria/2017_04_02_bak/moodle_2.5.8/.htaccess",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_moodle-2.5.9/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_moodle-2.8.12/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_moodle/config.php",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/version.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/checkout/cart.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/checkout/_partials/cart-detailed.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/checkout/_partials/cart-detailed-product-line.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/checkout/_partials/cart-detailed-totals.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/checkout/_partials/cart-summary-totals.tpl",
+		"/Users/padawan_02/Documents/acrediti/mantenimiento/mantenimiento.html",
+		"/Users/padawan_02/Documents/acrediti/html/mantenimiento.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/html5_template.html",
+		"/Users/padawan_02/Documents/moodle/integracion_prestashop_moodle.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_moodle/path.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/classes/Product.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/classes/Cart.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/controllers/front/CartController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/override/classes/Cart.php",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/Cart.php",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/auth 2.php",
+		"/Users/padawan_02/Downloads/id_rsa.pub",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/parameters.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/material/bloques/cms_pages/aviso_legal_1.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-config-2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-config-sample.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/material/bloques/cms_pages/metodos_de_pago.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/demo_test.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/ajax.html",
+		"/private/var/folders/k7/xwv0trsj2cg4s7mt53v1xd200000gq/T/fz3temp-2/Hashing.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/proyecto_1/index.php",
+		"/Users/padawan_02/Documents/pruebas/prueba_1.c",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/mails/es/import.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/proyecto_1/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/mails/es/order_conf.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/proyecto_1/PHPMailer-master/examples/mail.phps",
+		"/Users/padawan_02/Documents/acrediti/optimizacion/optimized_contents/MANIFEST",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/_partials/stylesheets.tpl",
+		"/Users/padawan_02/Downloads/optimized_contents(1)/MANIFEST",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/_partials/head.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/_partials/form-fields.tpl",
+		"/Users/padawan_02/Dropbox/Works/C/Cvne/05_Web/_access/Cvne_access.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/drool/acrediti_exportacion/themes/leo_leblanc/templates/layouts/layout-both-columns.tpl"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
