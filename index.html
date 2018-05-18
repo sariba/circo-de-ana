@@ -4,243 +4,18 @@
   <head>
     <title>El Circo de Ana</title>
     <meta charset="UTF-8">
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
+    <link href="estilos/header.css" rel="stylesheet" type="text/css">
+    <link href="estilos/nav-mobile.css" rel="stylesheet" type="text/css">
+    <link href="estilos/main.css" rel="stylesheet" type="text/css">
+    <link href="estilos/grid.css" rel="stylesheet" type="text/css">
+	<link href="estilos/footer.css" rel="stylesheet" type="text/css">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Signika:300,400,600,700" rel="stylesheet">
-    <style>
-
-
-/* Header */
-
-/*
-BEM
-
-.block
-
-.block__element
-
-.block__element--modifier
-
-
-*/
-
-
-.header {
-	background-color:#38273d;
-	height: 660px;
-	margin-bottom: 60px;
-	width:100%;
-}
-
-.header_content {
-	padding-top: 74px;
-}
-
-.header_content-primary {
-	align-items: center;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-}
-
-	.header__logo {
-		width: 50%;
-	}
-
-		.header__logo__icon {
-			width: 120px;
-		}
-
-
-	.header__link {
-		color: white;
-		font-family: 'Signika', sans-serif;
-		font-size: 1.5em;
-		padding: 0px 0px 0px 40px;
-		text-decoration: none;
-	}
-
-		.header__link--search {
-			color: yellow;
-		}
-
-.header_content-secundary {
-	margin-top: 77px;
-	width: 50%;
-  	margin-left: 50%;
-
-}
-	.header__title {
-		color:#ff8da1;
-		font-family: 'Signika', sans-serif;
-		font-size:3.4em;
-		font-weight: 400;
-	}
-
-
-
-/* .main */
-.main, .header_content {
-	margin: auto;
-	width: 50%;
-}
-
-.grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0;
-  width: 100%;
-}
-
-	.grid__col {
-		margin-bottom: 30px;
-		width: 100%;
-	}
-
-
-	@media(min-width: 768px) {
-		.grid__col {
-			width: 31.6666%;
-		}
-		.grid__col--2\/3 {
-			width: 65.7777%;
-		}
-	}
-
-	.article {
-		align-content: center;
-		background-color: #efe9da;
-		display: flex;
-		flex-flow: row wrap;
-		height: 580px;
-		justify-content: center;
-		width: 100%;
-	}
-
-		.article__content {
-			border: 5px solid #49334f;
-			display: flex;
-			flex-flow: row wrap;
-			margin: auto;
-			width: 85%;
-		}
-
-		.article__content--first {
-			border: 5px solid #49334f;
-			display: flex;
-			flex-flow: row wrap;
-			margin: auto;
-			width: 93%;
-		}
-
-			.article__thumbnail {
-				width: 100%;
-			}
-
-			.article__title {
-				font-family: 'Signika', sans-serif;
-				font-size: 2.5em;
-				padding-left: 5%;
-			}
-
-			.article__date {
-				color: #928595;
-				font-family: 'Lato', sans-serif;
-				font-size: 1.1em;
-				padding-bottom: 0px;
-				padding-left: 5%;
-			}
-
-			.article__date, .article__more {
-				width: 45%;
-			}
-
-			.article__more {
-				color: #ff8da1;
-				font-family: 'Lato', sans-serif;
-				font-size: 1.1em;
-				font-weight: bold;
-				padding-bottom: 0px;
-				padding-right: 5%;
-				text-align: right;
-			}
-
-.load-more{
-	margin-bottom: 8%;
-	margin-top: 5%;
-	width: 100%;
-}
-	.load-more__button {
-		border: solid black;
-		font-family: 'Signika', sans-serif;
-		margin: auto;
-		padding-top: 55px;
-		vertical-align: middle;
-		text-align: center;
-		height: 70px;
-		width: 25%;
-	}
-
-
-
-/* .footer */
-.footer {
-	background-color:#38273d;
-	height: 160px;
-	width: 100%;
-}
-
-	.footer__content {
-		align-content: center;
-		align-items: center;
-		display: flex;
-		flex-flow: row wrap;
-		height: 160px;
-		justify-content: space-between;
-		margin: auto;
-		width: 50%;
-}
-		.footer__info, .social-media {
-			width: 30%;
-		}
-
-		.footer__info, a {
-			color: #efe9da;
-			font-family: 'Lato', sans-serif;
-			font-weight: 300;
-			line-height: 25px;
-			text-decoration: none;
-		}
-
-
-
-		.footer__info__text {
-			color: rgba(255, 255, 255, .5);
-			font-weight: lighter;
-			line-height: 35px;
-		}
-
-.social-media {
-	align-items: center;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-end;
-}
-
-		.social-media__item {
-			margin-left: 6%;
-		}
-
-
-
-    </style>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
-
-
 
     <header class="header">
     	<div class="header_content">
@@ -253,18 +28,31 @@ BEM
 			    	<nav class="header__menu__nav">
 			    		<a class="header__link" href="#">Sobre mi circo</a>
 			    		<a class="header__link" href="#">Contacto</a>
-			    		<a class="header__link header__link--search" href="#">Buscar</a>
+			    		<a class="header__link header__link--search" href="#"><img src="img/search.svg" alt="buscar"></a>
+			    	</nav>
+			    	<nav class="header__menu__nav-responsive">
+			    		<img src="img/menu.svg">
 			    	</nav>
 			    </div>
-
 		    </div>
 
 		    <div class="header_content-secundary">
-		    	<h1 class="header__title">¡Bienvenida a mi<br> Circo! Soy Ana, mamá,<br> domadora, malabarista,<br> maga y equilibrista.</h1>
+		    	<h1 class="header__title">¡Bienvenida a mi Circo! Soy Ana, mamá, domadora, malabarista, maga y equilibrista.</h1>
 		    </div>
 
 	    </div>
+
     </header> <!-- /.header -->
+
+
+   <nav class="nav-mobile">
+    	<a class="nav-mobile__link" href="#">Sobre mi circo</a>
+    	<hr class="hr">
+    	<a class="nav-mobile__link" href="#">Contacto</a>
+    	<hr class="hr">
+    	<a class="nav-mobile__link" href="#">Buscar</a>
+    </nav>
+
 
 
 		<main class="main">
@@ -272,11 +60,11 @@ BEM
 	    <section class="grid">
 	    		<div class="grid__col grid__col--2/3">
 
-						<article class="article">
-							<div class="article__content--first">
-								<img class="article__thumbnail" src="img/post1.jpg" alt="imagen">
+						<article class="article article--first">
+							<div class="article__content">
+								<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
 								<h2 class="article__title">
-									Lorem ipsum dolor sit amet,consectet<br> adipiscing elit.
+									Lorem ipsum dolor sit amet, consectet...
 								</h2>
 								<p class="article__date">
 									99.99.9999
@@ -294,7 +82,7 @@ BEM
 							<div class="article__content">
 								<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
 								<h2 class="article__title">
-									Lorem ipsum<br> dolor sit amet,<br> consectet...
+									Lorem ipsum dolor sit amet, consectet...
 								</h2>
 								<p class="article__date">
 									99.99.9999
@@ -312,7 +100,7 @@ BEM
 							<div class="article__content">
 								<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
 								<h2 class="article__title">
-									Lorem ipsum<br> dolor sit amet,<br> consectet...
+									Lorem ipsum dolor sit amet, consectet...
 								</h2>
 								<p class="article__date">
 									99.99.9999
@@ -329,7 +117,7 @@ BEM
 							<div class="article__content">
 								<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
 								<h2 class="article__title">
-									Lorem ipsum<br> dolor sit amet,<br> consectet...
+									Lorem ipsum dolor sit amet, consectet...
 								</h2>
 								<p class="article__date">
 									99.99.9999
@@ -346,7 +134,7 @@ BEM
 							<div class="article__content">
 								<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
 								<h2 class="article__title">
-									Lorem ipsum<br> dolor sit amet,<br> consectet...
+									Lorem ipsum dolor sit amet, consectet...
 								</h2>
 								<p class="article__date">
 									99.99.9999
@@ -358,13 +146,13 @@ BEM
 						</article>
 					</div>
 
-					<div class="grid__col">
+					<div class="grid__col grid__col--responsive">
 
 						<article class="article">
 							<div class="article__content">
 								<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
 								<h2 class="article__title">
-									Lorem ipsum<br> dolor sit amet,<br> consectet...
+									Lorem ipsum dolor sit amet, consectet...
 								</h2>
 								<p class="article__date">
 									99.99.9999
@@ -376,13 +164,13 @@ BEM
 						</article>
 					</div>
 
-					<div class="grid__col">
+					<div class="grid__col grid__col--responsive">
 
 						<article class="article">
 							<div class="article__content">
 								<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
 								<h2 class="article__title">
-									Lorem ipsum<br> dolor sit amet,<br> consectet...
+									Lorem ipsum dolor sit amet, consectet...
 								</h2>
 								<p class="article__date">
 									99.99.9999
@@ -394,13 +182,13 @@ BEM
 						</article>
 					</div>
 
-					<div class="grid__col">
+					<div class="grid__col grid__col--responsive">
 
 						<article class="article">
 							<div class="article__content">
 								<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
 								<h2 class="article__title">
-									Lorem ipsum<br> dolor sit amet,<br> consectet...
+									Lorem ipsum dolor sit amet, consectet...
 								</h2>
 								<p class="article__date">
 									99.99.9999
@@ -428,7 +216,7 @@ BEM
 
 						<a href="#">hola@elcircodeana.com</a><br>
 						2016. Todos los derechos reservados<br>
-						<span class="footer__info__text">Política de privacidad<br>Diseñada en Murcia por Drool Studio</span>
+						<span class="footer__info__text">Política de privacidad - Política de cookies<br>Diseñada en Murcia por Drool Studio</span>
 				</div>
 
 

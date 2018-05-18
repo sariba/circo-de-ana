@@ -1,0 +1,42 @@
+.nav-mobile {
+		background: #49334f;
+		left: 0;
+		top: 0;
+		
+		height: 100vh;
+		position:fixed;
+		width: 100vw;
+		z-index: 50;
+
+		align-items:center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		transform: translateY(-101%);
+		opacity: 0;
+		visibility: hidden;
+		transition: transform .3s, opacity .3s, visibility .3s; 
+	}
+
+
+	.nav-mobile.is-active {
+		opacity: 1;
+		transform: translateZ(0);
+		visibility: visible;
+	}
+
+	.nav-mobile__link { 
+		font-family: 'Signika', sans-serif;
+		font-size:2em;
+		font-weight: 200;
+		width: 100%;
+	}
+
+	.hr {
+		background-color: #ff8da1;
+		border:none;
+		height: 2px;
+		margin:3% 0;
+		width: 80%;
+	}
