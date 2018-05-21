@@ -4,11 +4,11 @@
   <head>
     <title>El Circo de Ana (New version)</title>
     <meta charset="UTF-8">
-    <link href="estilos/header.css" rel="stylesheet" type="text/css">
+    <link href="estilos/header-bootstrap.css" rel="stylesheet" type="text/css">
     <link href="estilos/nav-mobile.css" rel="stylesheet" type="text/css">
     <link href="estilos/main.css" rel="stylesheet" type="text/css">
     <link href="estilos/grid-bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="estilos/footer.css" rel="stylesheet" type="text/css">
+	<link href="estilos/footer-bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="estilos/bootstrap.css" rel="stylesheet" type="text/css">
 
 
@@ -19,26 +19,34 @@
   <body>
 
     <header class="header">
-    	<div class="header_content">
-    		<div class="header_content-primary">
-		    	<div class="header__logo">
-		    		<img class="header__logo__icon" src="img/logo.png" alt="logo">
-		    	</div>
+    	<div class="header_content container">
+    		<div class="row logo-menu">
+	    		<div class="col-lg-4 col-md-6 col-sm-6">
+			    	<div class="header__logo">
+			    		<img class="header__logo__icon" src="img/logo.png" alt="logo">
+			    	</div>
+			    </div>
 
-		    	<div class="header__menu">
+		    	<div class="col-lg-4 col-md-6 col-sm-6">
 			    	<nav class="header__menu__nav">
 			    		<a class="header__link" href="#">Sobre mi circo</a>
 			    		<a class="header__link" href="#">Contacto</a>
 			    		<a class="header__link header__link--search" href="#"><img src="img/search.svg" alt="buscar"></a>
 			    	</nav>
-			    	<nav class="header__menu__nav-responsive">
-			    		<img src="img/menu.svg">
-			    	</nav>
 			    </div>
-		    </div>
 
-		    <div class="header_content-secundary">
-		    	<h1 class="header__title">¡Bienvenida a mi Circo! Soy Ana, mamá, domadora, malabarista, maga y equilibrista.</h1>
+			    <div class="col-sm-1 menu-responsive">
+			    		<img src="img/menu.svg">
+			    </div>
+			</div>
+
+
+			<div class="row title container">
+				<div class="col-lg-6 col-sm-12">
+		    		<h1 class="header__title">
+		    			¡Bienvenida a mi Circo! Soy Ana, mamá, domadora, malabarista, maga y equilibrista.
+		    		</h1>
+		    	</div>
 		    </div>
 
 	    </div>
@@ -58,82 +66,186 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-8">
-				<div class="article__content">
-					<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
-					<h2 class="article__title">
-						Lorem ipsum dolor sit amet, consectet...
-					</h2>
-					<p class="article__date">
-						99.99.9999
-					</p>
-					<p class="article__more">
-						VER ENTRADA
-					</p>
-				</div>
+			<div class="col-sm-12 col-md-12 col-lg-8">
+				<article class="article">
+					<div class="article__content">
+						<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
+						<h2 class="article__title">
+							Lorem ipsum dolor sit amet, consectet adipiscing elit.
+						</h2>
+						<p class="article__date">
+							99.99.9999
+						</p>
+						<p class="article__more">
+							VER ENTRADA
+						</p>
+					</div>
+				</article>
 			</div>
 
-			<div class="col-sm-4">
-				<div class="article__content">
-					<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
-					<h2 class="article__title">
-						Lorem ipsum dolor sit amet, consectet...
-					</h2>
-					<p class="article__date">
-						99.99.9999
-					</p>
-					<p class="article__more">
-						VER ENTRADA
-					</p>
-				</div>
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<article class="article">
+					<div class="article__content">
+						<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
+						<h2 class="article__title">
+							Lorem ipsum dolor sit amet, consectet...
+						</h2>
+						<p class="article__date">
+							99.99.9999
+						</p>
+						<p class="article__more">
+							VER ENTRADA
+						</p>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<article class="article">
+					<div class="article__content">
+						<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
+						<h2 class="article__title">
+							Lorem ipsum dolor sit amet, consectet...
+						</h2>
+						<p class="article__date">
+							99.99.9999
+						</p>
+						<p class="article__more">
+							VER ENTRADA
+						</p>
+					</div>
+				</article>
+			</div>
+
+
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<article class="article">
+					<div class="article__content">
+						<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
+						<h2 class="article__title">
+							Lorem ipsum dolor sit amet, consectet...
+						</h2>
+						<p class="article__date">
+							99.99.9999
+						</p>
+						<p class="article__more">
+							VER ENTRADA
+						</p>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<article class="article">
+					<div class="article__content">
+						<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
+						<h2 class="article__title">
+							Lorem ipsum dolor sit amet, consectet...
+						</h2>
+						<p class="article__date">
+							99.99.9999
+						</p>
+						<p class="article__more">
+							VER ENTRADA
+						</p>
+					</div>
+				</article>
+			</div>
+
+
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<article class="article">
+					<div class="article__content">
+						<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
+						<h2 class="article__title">
+							Lorem ipsum dolor sit amet, consectet...
+						</h2>
+						<p class="article__date">
+							99.99.9999
+						</p>
+						<p class="article__more">
+							VER ENTRADA
+						</p>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<article class="article">
+					<div class="article__content">
+						<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
+						<h2 class="article__title">
+							Lorem ipsum dolor sit amet, consectet...
+						</h2>
+						<p class="article__date">
+							99.99.9999
+						</p>
+						<p class="article__more">
+							VER ENTRADA
+						</p>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-sm-12 col-md-6 col-lg-4">
+				<article class="article">
+					<div class="article__content">
+						<img class="article__thumbnail" src="img/post.jpg" alt="imagen">
+						<h2 class="article__title">
+							Lorem ipsum dolor sit amet, consectet...
+						</h2>
+						<p class="article__date">
+							99.99.9999
+						</p>
+						<p class="article__more">
+							VER ENTRADA
+						</p>
+					</div>
+				</article>
 			</div>
 		</div>
+
+	</div>
 
 	</div><!-- /.bootstrap -->
 
 		<footer class="footer">
-			<div class="footer__content">
-				<div class="footer__info">
+			<div class="footer__content container">
+				<div class="col-lg-4 col-md-6 col-sm-12 footer__info">
 
-						<a href="#">hola@elcircodeana.com</a><br>
-						2016. Todos los derechos reservados<br>
-						<span class="footer__info__text">Política de privacidad - Política de cookies<br>Diseñada en Murcia por Drool Studio</span>
+							<a class="mail" href="#">hola@elcircodeana.com</a><br>
+							2016. Todos los derechos reservados<br>
+							<span class="footer__info__text">Política de privacidad - Política de cookies<br>Diseñada en Murcia por Drool Studio</span>
+
 				</div>
 
 
-				<div class="social-media">
-					<div class="social-media__item">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="social-media">
+						<div class="social-media__item">
+							<a class="soacial-media__link" href="#">
+								<img class="social-media__icon" src="img/facebook.svg" alt="facebook">
+							</a>
+						</div>
 
-						<a class="soacial-media__link" href="#">
-							<img class="social-media__icon" src="img/facebook.svg" alt="facebook">
-						</a>
+						<div class="social-media__item">
+							<a class="soacial-media__link" href="#">
+								<img class="social-media__icon" src="img/twitter.svg" alt="twitter">
+							</a>
+						</div>
 
+						<div class="social-media__item">
+							<a class="soacial-media__link" href="#">
+								<img class="social-media__icon" src="img/linkedin.svg" alt="linkedin">
+							</a>
+						</div>
+
+						<div class="social-media__item">
+							<a class="soacial-media__link" href="#">
+								<img class="social-media__icon__img" src="img/google.svg" alt="google+">
+							</a>
+						</div>
 					</div>
-
-					<div class="social-media__item">
-
-						<a class="soacial-media__link" href="#">
-							<img class="social-media__icon" src="img/twitter.svg" alt="twitter">
-						</a>
-
-					</div>
-
-					<div class="social-media__item">
-
-						<a class="soacial-media__link" href="#">
-							<img class="social-media__icon" src="img/linkedin.svg" alt="linkedin">
-						</a>
-
-					</div>
-
-					<div class="social-media__item">
-
-						<a class="soacial-media__link" href="#">
-							<img class="social-media__icon__img" src="img/google.svg" alt="google+">
-						</a>
-
-					</div>
-
 				</div>
 			</div>
     	</footer> <!-- /.footer -->
