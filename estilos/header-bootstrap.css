@@ -57,14 +57,16 @@ BEM
 			}
 
 
-	.title {  outline: solid;
+	.title {  
+	
 		display: flex;
+		flex-flow: row wrap;
 		justify-content: flex-end;
 		margin-top: 77px; 	
 
 	}
 
-		.header__title { outline: solid;
+		.header__title {
 			color:#ff8da1;
 			font-family: 'Signika', sans-serif;
 			font-size:3.5em;
@@ -79,7 +81,7 @@ BEM
 
 	/* --Tablet-- */
 
-@media(min-width: 768px) {
+@media(max-width: 768px) {
 
 		.header_content { 
 			padding-top: 22px;
@@ -113,7 +115,7 @@ BEM
 
 	/* --movil-- */
 
-@media (max-width: 767px){
+@media (max-width: 576px){
 	
 
 		.header__logo__icon {
