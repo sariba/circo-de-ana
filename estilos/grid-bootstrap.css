@@ -70,6 +70,26 @@
 		padding-bottom: 22px;
 		padding-top: 20px;
 		text-align: center;
-		width: 35%;
+	
 	}
+/* ------------------media queries------------------------------ */
+
+/* --Tablet-- */
+
+@media (max-width: 792px) {
+	.hidden {
+		display: none;
+	}
+}
+
+/* --movil-- */
+
+@media (max-width: 576px){
+	.load-more__button {
+		
+		max-width: 80%;
+	
+	}
+	}
+
 

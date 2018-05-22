@@ -24,6 +24,7 @@ BEM
 	}
 
 	.logo-menu {
+		position:relative;
 		align-items: center;
 		display: flex;
 		flex-flow: row wrap;
@@ -45,7 +46,9 @@ BEM
 		}
 
 		.menu-responsive {
-				display: none;
+			position:absolute;
+			right: 10px;
+			display: none;
 			}
 
 		.header__link { 
@@ -72,7 +75,8 @@ BEM
 			font-size:3.5em;
 			font-weight: 400;
 			padding-bottom: 133px;
-			text-align: left;
+		
+			
 		}
 
 /* ------------------media queries------------------------------ */
@@ -81,7 +85,7 @@ BEM
 
 	/* --Tablet-- */
 
-@media(max-width: 768px) {
+@media (max-width: 792px) {
 
 		.header_content { 
 			padding-top: 22px;
@@ -109,6 +113,7 @@ BEM
 			font-weight: 400;
 			margin:auto;
 			padding-bottom: 0px;
+			
 		}
 	}
 
@@ -119,17 +124,16 @@ BEM
 	
 
 		.header__logo__icon {
-			width: 30%
-		}
+				width: 63px;
+			}
 	
 		.header__menu__nav {
 			display:none;
 		}
 		.menu-responsive {
-			outline: solid;
 			display: inherit;
 		}
-.row {outline:solid red;}
+
 
 		.title { 
 			margin-top:60px;
@@ -137,8 +141,9 @@ BEM
 		
 		}
 
-		.header__title { outline:solid;
+		.header__title { 
 			font-size: 2em;
 			line-height: 35px;
+			text-align: center;
 		}
 	}
