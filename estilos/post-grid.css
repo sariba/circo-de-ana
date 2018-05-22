@@ -1,0 +1,32 @@
+.article__title {
+	color:#ff8da1;
+	font-family: 'Signika', sans-serif;
+	font-size: 2.5em;
+}
+
+.article__date, .article__rrss, .article__tags {
+	color: #928595;
+	font-family: 'Lato', sans-serif;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+.article__text {
+	color: #49334f;
+	font-family: 'Lato', sans-serif;
+}
+.caption {
+	color: #928595;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+
+}
+
+.aside {
+	background-color: #efe9da;
+	height: 673px;
+	padding:30px 23px;
+}
