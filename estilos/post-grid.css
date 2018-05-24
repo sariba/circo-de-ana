@@ -1,3 +1,4 @@
+/* --------------------- ESTILOS PARA EL ARTICULO PRINCIPAL ------------------------- */	
 .article {
 	font-family: 'Lato', sans-serif;
 }
@@ -10,12 +11,19 @@
 	}
 
 	.article__rrss {
-		margin-top: 55px;
 		margin-bottom: 63px;
+		margin-top: 55px;
 	}
 
 	.article__img-1 {
 		margin-top:24px;
+	}
+
+	.article__caption {
+		color: #928595 !important;
+		font-style: italic;
+		margin-bottom: 50px;
+		margin-top:15px;
 	}
 
 	.article__date, .article__rrss, .article__tags {
@@ -28,25 +36,56 @@
 
 
 	.article p, .comments p {
-		font-size: 18px;
 		color: #49334f;
+		font-size: 18px;
 	}
 
 	.article__rrss--end {
-		color: #928595;
-		margin-top:83px;
 		margin-bottom: 47px;
+		margin-top:83px;
 	}
 
-
-
-	.article__caption {
+	.article__tags-text, .article__rrss-text  {
 		color: #928595 !important;
-		font-style: italic;
-		margin-top:15px;
-		margin-bottom: 50px;
+		display: inline;
+		width: 30%;
+	}
+
+	.article__rrss__icon, .article__tags__words {
+		display: inline;
+		font-size: 18px;
+	}
+
+
+
+/* --- ESTILOS PARA LOS ICONOS RRSS SUPERIORES --- */	
+
+	.social-media__icon1 {
+		height: 35px;
+		width: 7%;
+		
+	}
+
+	.social-media__icon__img1 {
+		height: 30px;
+		width: 6%;
 
 	}
+
+/* --- ESTILOS PARA LOS ICONOS RRSS FINALES --- */	
+	.social-media__icon {
+		height: 50px;
+		width: 10%;
+	}
+
+	.social-media__icon__img {
+		height: 40px;
+		width: 8%;
+	}
+
+
+
+/* --------------------- ESTILOS PARA LA PARTE DE LOS COMENTARIOS ------------------------- */	
 
 .comments {
 	font-family: 'Lato', sans-serif;
@@ -58,59 +97,71 @@
 	}
 
 	.comments__fill {
-		margin-left: 30px;
-		font-style:italic;
 		color:#928595;
+		font-style:italic;
+		margin-left: 30px;
 	}
 
 	.comments__privacy {
-		font-style:italic;
 		color:#928595;
+		font-style:italic;
 		margin-bottom: 48px;
 	}
 
 		.comments__privacy a {
 			color:#928595;
-			text-decoration: underline;;
-
+			text-decoration: underline;
 		}
 
 	.comments__testimonies {
-		margin-bottom: 70px;
+		margin-bottom: 80px;
 	}
-		.comments__name {
-			color:#ff8da1 !important;
-			margin-bottom: 30px;
+
+		.comments__testimonies-first {
+			margin-bottom: 70px;
 		}
 
-		.comments__number {
-			margin-top:47px;
-			margin-bottom: 40px;
+		.comments__testimonies__name-date {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+			align-items: center;
 		}
+			.comments__testimonies__name {
+				color:#ff8da1 !important;
+				margin-bottom: 30px;
+			}
+
+			.comments__testimonies__date {
+				color: #928595 !important;
+			}
+
+			.comments__number {
+				margin-bottom: 40px;
+				margin-top:47px;
+			}
 
 	.hr {
-		height: 6px;
 		background-color: #928595;
 		border:none;
+		height: 6px;
 		margin-bottom:0px 0px 30px 0px;
 	}
 
 	.hr--end {
-		margin-top: 40px;
 		margin-bottom: 80px;
+		margin-top: 40px;
 	}
-
 
 
 
 	.next {
 			border: solid 5px #FF8DA1;
 			color:#ff8da1;
+			margin-right: 15px;
+			padding:15px;
 			text-align: center;
 			top:-40px;
-			
-			padding:15px;
-
 		}
 
 img {
@@ -120,11 +171,35 @@ img {
 	font-weight: bold;
 }
 
+/* -------------- ESTILOS PARA LA COLUMNA ASIDE ------------------*/
 
 .aside {
 	background-color: #efe9da;
 	color: #49334f;
 	padding:30px 23px;
+	position: relative;
+}
+
+.aside::after {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: url('../img/aside-pattern.svg') repeat-x center center;
+	
+}
+
+.aside::before{
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: url('../img/aside-pattern.svg') repeat-x center center;
+	
 }
 	
 	.aside p {
@@ -143,12 +218,23 @@ img {
 		margin-left: 10px;
 	}
 	.hr--aside {
+		margin-bottom: 30px;
 		margin-top:0px;
+	}
+
+	.aside__hr-dotted {
+		border-top: 10px dotted white;
+  		width: 125%;
+  		position: relative;
+  		margin-left: -25px;
+	}
+
+	.aside__last-post {
 		margin-bottom: 30px;
 	}
 
 	.aside__last-post, .aside__tags {
-		margin-top:60px;
+		margin-top:30px;
 	}
 
 	.aside__last-post p, .aside__tags p {
@@ -162,7 +248,90 @@ img {
 	/* --Tablet-- */
 
 @media (max-width: 792px) {
+	.next {
+			font-size: .9em;
+		}
 
+	.aside {
+	margin-bottom: 62px;
+	}
+}
+
+	/* --movil-- */
+
+@media (max-width: 576px){
+	.article__title {
+		font-size: 2.2em;
+		margin-bottom: 30px;
+	}
+
+	.article__rrss {
+		margin-bottom: 60px;
+		margin-top: 50px;
+	}
+
+	.article__rrss__icon {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+
+	.article__rrss--end {
+		margin-bottom: 40px;
+		margin-top: 44px;
+	}
+
+	.article__rrss-text {
+		display: block;;
+		margin-bottom: 22px;
+	}
+
+	.social-media__icon {
+		height: 40px;
+		width: 35%;
+		
+	}
+
+	.social-media__icon__img {
+		height: 35px;
+		width: 30%;
+
+	}
+
+	.article__tags-text {
+		display: block;
+	}
+
+	.next {
+			margin-bottom: 30px;
+			margin:auto;
+			max-width: 45%;
+			padding:15px;
+			text-align: center;
+			top:0px;
+		}
+
+	.comments__fill, .comments__privacy {
+		text-align: center;
+	}
+
+	.comments__testimonies__name-date {
+			display:block;
+	}
+
+		.comments__testimonies__name {
+			margin-bottom: 20px;
+		}
+
+		.comments__testimonies__date {
+			margin-bottom: 30px;
+			margin-top: 0px;
+		}
+
+	.hr--middle {
+		margin:17px 15px 33px 15px;
+	}
 
 }
+
 

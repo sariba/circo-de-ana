@@ -3,7 +3,7 @@
   <head>
     <title>El Circo de Ana (New version)</title>
     <meta charset="UTF-8">
-    <link href="estilos/post-header.css" rel="stylesheet" type="text/css">
+    <link href="estilos/header-bootstrap.css" rel="stylesheet" type="text/css">
     <link href="estilos/nav-mobile.css" rel="stylesheet" type="text/css">
     <link href="estilos/main.css" rel="stylesheet" type="text/css">
     <link href="estilos/post-grid.css" rel="stylesheet" type="text/css">
@@ -17,7 +17,7 @@
 
   <body>
 
-    <header class="header">
+    <header class="header header--post">
     	<div class="header_content container">
     		<div class="row logo-menu">
 			    	<div class="header__logo col-lg-4 col-md-6 col-sm-6">
@@ -65,9 +65,9 @@
 					</p>
 					<p class="article__rrss">
 						Compartir:
-						<img class="social-media__icon" src="img/facebook2.svg" alt="facebook">
-						<img class="social-media__icon" src="img/twitter2.svg" alt="twitter">
-						<img class="social-media__icon__img" src="img/google2.svg" alt="google+">
+						<img class="social-media__icon__img1" src="img/facebook2.svg" alt="facebook">
+						<img class="social-media__icon1" src="img/twitter2.svg" alt="twitter">
+						<img class="social-media__icon1" src="img/google2.svg" alt="google+">
 					</p>
 
 
@@ -101,14 +101,14 @@
 
 
 				<div class="row images">
-					<div class="col">
+					<div class="col-md-6 col-sm-12">
 						<img src="img/img-2.jpg">
 						<p class="article__caption">
 							Lorem ipsum dolor amet
 						</p>
 					</div>
 
-					<div class="col">
+					<div class="col-md-6 col-sm-12">
 						<img src="img/img-3.jpg">
 						<p class="article__caption">
 							Lorem ipsum dolor amet
@@ -129,22 +129,33 @@
 						Expetenda tincidunt in sed, ex partem placerat sea, porro commodo ex eam. His putant aeterno interesset at. Usu ea mundi tincidunt, omnium virtute aliquando ius ex. <span class="bold">Ea aperiri sententiae duo. Usu nullam dolorum</span> quaestio ei, sit vidit facilisis ea. Per ne impedit iracundia neglegentur. Consetetur neglegentur eum ut, vis animal legimus inimicus id.
 					</p>
 
-					<p class="article__rrss article__rrss--end">
-						Compartir:
-						<img class="social-media__icon" src="img/facebook2.svg" alt="facebook">
-						<img class="social-media__icon" src="img/twitter2.svg" alt="twitter">
-						<img class="social-media__icon__img" src="img/google2.svg" alt="google+">
-					</p>
-					<p class="article__tags">
-						Tags: Palabra01, Palabra02, Palabra03, Palabra04,
-					</p>
+					<div class="article__rrss--end">
+						<p class="article__rrss-text ">
+							Compartir:
+						</p>
+						<div class="article__rrss__icon">
+							<img class="social-media__icon__img" src="img/facebook2.svg" alt="facebook">
+							<img class="social-media__icon" src="img/twitter2.svg" alt="twitter">
+							<img class="social-media__icon" src="img/google2.svg" alt="google+">
+						</div>
+					</div>
+
+
+					<div class="article__tags">
+						<p class="article__tags-text">
+							Tags:
+						</p>
+						<div class="article__tags__words">
+							Palabra01, Palabra02, Palabra03, Palabra04,
+						</div>
+					</div>
 
 				</article>
 				<!-- fin del articulo principal -->
 
 			<!-- inicio de los comentarios -->
 				<div class="row comments">
-					<div class="col-md-12 col-md-12 col-lg-10">
+					<div class="col-md-12 col-md-12 col-lg-12">
 
 						<hr class="hr">
 
@@ -158,9 +169,9 @@
 
 						<div class="row middle">
 
-							<hr class="hr hr--middle col-lg-9">
+							<hr class="hr hr--middle col-sm-12 col-md-9 col-lg-9">
 
-							<div class="next col-lg-2 bold">
+							<div class="next col-sm-12 col-md-2 col-lg-2 bold">
 								SIGUIENTE
 							</div>
 						</div>
@@ -176,23 +187,33 @@
 						</div>
 
 						<div class="comments__testimonies">
-							<p class="comments__name">
-								<span class="bold">Maria del Carmen Moreno</span>
-							</p>
-
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismtincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option
-							</p>
-						</div>
-
-						<div>
-							<p class="comments__name">
-								<span class="bold">Lucía María de la Caridad Gutiérrez</span>
-							</p>
-
+							<div class="comments__testimonies-first">
+							<div class="comments__testimonies__name-date">
+								<p class="comments__testimonies__name">
+									<span class="bold">María del Carmen Moreno</span>
+								</p>
+								<p class="comments__testimonies__date">
+									99.99.999 - 12:45H
+								</p>
+							</div>
 							<p>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option
 							</p>
+							</div>
+
+							<div>
+								<div class="comments__testimonies__name-date">
+									<p class="comments__testimonies__name">
+										<span class="bold">Lucía María de la Caridad Gutiérrez</span>
+									</p>
+									<p class="comments__testimonies__date">
+										99.99.999 - 12:45H
+									</p>
+								</div>
+								<p>
+									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option
+								</p>
+							</div>
 						</div>
 
 						<hr class="hr hr--end">
@@ -201,7 +222,7 @@
 
 			</div>
 
-
+			<!------------------------- inicio de aside ----------------------->
 			<div class="col-sm-12 col-md-12 col-lg-3">
 				<aside class="aside">
 					<div class="aside__search">
@@ -213,6 +234,8 @@
 						</p>
 						<hr class="hr hr--aside">
 					</div>
+
+					<hr class="aside__hr-dotted">
 
 					<div class="aside__last-post">
 						<h5>
@@ -231,6 +254,8 @@
 							Lorem ipsum dolor amet not dorum...
 						</p>
 					</div>
+
+					<hr class="aside__hr-dotted">
 
 					<div class="aside__tags">
 						<h5>
@@ -281,25 +306,25 @@
 					<div class="social-media">
 						<div class="social-media__item">
 							<a class="soacial-media__link" href="#">
-								<img class="social-media__icon" src="img/facebook.svg" alt="facebook">
+								<img class="social-media__icon2" src="img/facebook.svg" alt="facebook">
 							</a>
 						</div>
 
 						<div class="social-media__item">
 							<a class="soacial-media__link" href="#">
-								<img class="social-media__icon" src="img/twitter.svg" alt="twitter">
+								<img class="social-media__icon2" src="img/twitter.svg" alt="twitter">
 							</a>
 						</div>
 
 						<div class="social-media__item">
 							<a class="soacial-media__link" href="#">
-								<img class="social-media__icon" src="img/linkedin.svg" alt="linkedin">
+								<img class="social-media__icon2" src="img/linkedin.svg" alt="linkedin">
 							</a>
 						</div>
 
 						<div class="social-media__item">
 							<a class="soacial-media__link" href="#">
-								<img class="social-media__icon__img" src="img/google.svg" alt="google+">
+								<img class="social-media__icon2" src="img/google.svg" alt="google+">
 							</a>
 						</div>
 					</div>

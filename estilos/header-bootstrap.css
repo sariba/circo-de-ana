@@ -17,6 +17,28 @@ BEM
 	background-color:#38273d;
 	margin-bottom: 60px;
 	width:100%;
+	position: relative;
+}
+
+.header--post {
+	height: 330px;
+
+}
+.header--post::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: url('../img/header-pattern.svg') repeat-x center center;
+	
+}
+
+.header::before {
+	content: 'Lorem ipsum';
+
+
 }
 
 	.header_content { 
@@ -78,6 +100,8 @@ BEM
 		
 			
 		}
+
+
 
 /* ------------------media queries------------------------------ */
 

@@ -4,6 +4,18 @@
 	margin-bottom: 107px;
 	width:100%;
 	height: 330px;
+	position: relative;
+}
+
+.header::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: url('../img/header-pattern.svg') repeat-x center center;
+	
 }
 
 	.header_content { 
@@ -16,7 +28,7 @@
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
-}
+	}
 
 		.header__logo__icon {
 			width: 120px;
@@ -108,6 +120,10 @@
 	/* --movil-- */
 
 @media (max-width: 576px){
+	.header {
+	height: 130px;
+	margin-bottom: 50px;
+	}
 	
 
 		.header__logo__icon {
@@ -121,16 +137,4 @@
 			display: inherit;
 		}
 
-
-		.title { 
-			margin-top:60px;
-			
-		
-		}
-
-		.header__title { 
-			font-size: 2em;
-			line-height: 35px;
-			text-align: center;
-		}
 	}
