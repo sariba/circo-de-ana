@@ -65,9 +65,15 @@
 					</p>
 					<p class="article__rrss">
 						Compartir:
-						<img class="social-media__icon__img1" src="img/facebook2.svg" alt="facebook">
-						<img class="social-media__icon1" src="img/twitter2.svg" alt="twitter">
-						<img class="social-media__icon1" src="img/google2.svg" alt="google+">
+						<a class="soacial-media__link" href="#">
+							<img class="social-media__icon__img1" src="img/facebook2.svg" alt="facebook">
+						</a>
+						<a class="soacial-media__link" href="#">
+							<img class="social-media__icon1" src="img/twitter2.svg" alt="twitter">
+						</a>
+						<a class="soacial-media__link" href="#">
+							<img class="social-media__icon1" src="img/google2.svg" alt="google+">
+						</a>
 					</p>
 
 
@@ -163,20 +169,19 @@
 							<span class="bold"> DEJA TU COMENTARIO</span>
 						</div>
 
+						<form>
 						<div class="comments__fill">
-							Por favor indica tu nombre
+							<input type="text" placeholder="Por favor indica tu nombre" class="comments__fill-input">
 						</div>
 
 						<div class="row middle">
 
 							<hr class="hr hr--middle col-sm-12 col-md-9 col-lg-9">
 
-							<a href="" class="middle__link col-sm-12 col-md-2 col-lg-2">
-								<div class="middle__next bold">
-									SIGUIENTE
-								</div>
-							</a>
+							<button type="submit" class="middle__next col-sm-12 col-md-2 col-lg-2">SIGUIENTE</button>
+
 						</div>
+						</form>
 
 						<div class="comments__privacy">
 							Al enviar el formulario estás aceptando nuestra <a href="">Política de Privacidad</a>
@@ -231,9 +236,10 @@
 						<h5>
 							Buscar
 						</h5>
-						<p class="aside__fill">
-							Escribe la palabra mágica
-						</p>
+						<form>
+							<input type="text" placeholder="Escribe la palabra mágica" class="aside__fill">
+
+						</form>
 						<hr class="hr hr--aside">
 					</div>
 

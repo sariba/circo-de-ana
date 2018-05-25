@@ -168,8 +168,8 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: #FF8DA1;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -825,7 +825,7 @@ pre code {
   margin-left: 91.666667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -997,7 +997,7 @@ pre code {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1201px) {
   .col-md {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;

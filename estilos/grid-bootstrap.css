@@ -61,10 +61,9 @@
 				}
 
 
-.load-more{
-	margin-bottom: 8%;
-	margin-top: 5%;
+.load-more__button__link{
 	width: 100%;
+	margin:5% auto 8% auto;
 }
 	.load-more__button {
 		border: 5px solid #49334f;
@@ -82,24 +81,26 @@
 		background-color: #49334f;
 		color:#fff;
 	}
+
+
 /* ------------------media queries------------------------------ */
 
 /* --Tablet-- */
 
-@media (max-width: 792px) {
-	.hidden {
+@media (max-width: 1201px) {
+	/*.hidden {
 		display: none;
-	}
+	}*/
 }
 
 /* --movil-- */
 
-@media (max-width: 576px){
+@media (max-width: 767px){
 	.load-more__button {
 		
 		max-width: 80%;
 	
 	}
-	}
+}
 
 
