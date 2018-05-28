@@ -33,8 +33,9 @@
 			    	</nav>
 			    </div>
 
-			    <div class="menu-responsive">
-			    		<img src="img/menu.svg">
+			    <div class="menu-responsive js-menu">
+			    	<img class="menu-responsive__image menu-responsive__image--open" src="img/menu.svg">
+			    	<img class="menu-responsive__image menu-responsive__image--close" src="img/close.svg">
 			    </div>
 			</div>
 
@@ -53,9 +54,9 @@
 
    <nav class="nav-mobile">
     	<a class="nav-mobile__link" href="#">Sobre mi circo</a>
-    	<hr class="hr">
+    	<hr class="nav-mobile__hr">
     	<a class="nav-mobile__link" href="#">Contacto</a>
-    	<hr class="hr">
+    	<hr class="nav-mobile__hr">
     	<a class="nav-mobile__link" href="#">Buscar</a>
     </nav>
 
@@ -253,6 +254,33 @@
 				</div>
 			</div>
     	</footer> <!-- /.footer -->
+
+
+    	<script>
+
+    		var menu = document.getElementsByClassName('js-menu')[0];
+    		var navMobile = document.getElementsByClassName('nav-mobile')[0];
+
+    		menu.addEventListener('click', function() {
+    			if( navMobile.classList.contains('is-active') ) {
+    				// Aparece nav mobile
+    				menu.classList.remove('is-active');
+    				navMobile.classList.remove('is-active');
+    			} else {
+					// Oculto nav mobile
+					menu.classList.add('is-active');
+    				navMobile.classList.add('is-active');
+    			}
+    		});
+
+    		document.onkeydown = function(event) {
+    			if(event.code == 'Escape') {
+    				menu.classList.remove('is-active');
+    				navMobile.classList.remove('is-active');
+    			}
+    		};
+
+    	</script>
   </body>
 
   </html>

@@ -26,10 +26,13 @@
 		visibility: visible;
 	}
 
+
 	.nav-mobile__link { 
+		color: #fff;
 		font-family: 'Signika', sans-serif;
 		font-size:2em;
 		font-weight: 200;
+		text-align:center;
 		width: 100%;
 	}
 

@@ -73,8 +73,21 @@ BEM
 			position:absolute;
 			right: 10px;
 			display: none;
+			z-index:100;
 			}
+		.menu-responsive.is-active .menu-responsive__image--open {
+			display: none;
+		}
+		.menu-responsive.is-active .menu-responsive__image--close {
+			display: block;
+		}
 
+			.menu-responsive__image {
+				display: block;
+			}
+			.menu-responsive__image--close {
+				display: none;
+			}
 		.header__link { 
 				color: white;
 				font-family: 'Signika', sans-serif;
