@@ -1,0 +1,28 @@
+{
+  "name": "circo-de-ana",
+  "version": "1.0.0",
+  "description": "Proyecto web circo de ana",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sariba/circo-de-ana.git"
+  },
+  "keywords": [
+    "web",
+    "sass",
+    "javascript"
+  ],
+  "author": "Lucia Andreo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sariba/circo-de-ana/issues"
+  },
+  "homepage": "https://github.com/sariba/circo-de-ana#readme"
+}
